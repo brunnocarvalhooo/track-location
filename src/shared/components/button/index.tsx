@@ -37,7 +37,7 @@ const Button: React.FC<ButtonProps> = ({
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: theme.COLORS.GREEN_700, // Cor padrão do botão
+    backgroundColor: theme.COLORS.PRIMARY, // Cor padrão do botão
     paddingVertical: 16,
     paddingHorizontal: 25,
     borderRadius: 5,
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   buttonText: {
-    color: 'white',
+    color: theme.COLORS.GRAY_50,
     fontSize: 16,
     fontWeight: 'bold',
   },

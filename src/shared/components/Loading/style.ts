@@ -11,6 +11,6 @@ export const styles = StyleSheet.create({
   text: {
     fontSize: theme.FONT_SIZE.XL,
     fontWeight: 'bold',
-    color: theme.COLORS.WHITE,
+    color: theme.COLORS.GRAY_50,
   },
 })

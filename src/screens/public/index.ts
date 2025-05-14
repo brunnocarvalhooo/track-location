@@ -1,3 +1,4 @@
 import { Login } from './Login'
+import { AuthenticationCode } from './AutenticationCode'
 
-export { Login }
+export { Login, AuthenticationCode }

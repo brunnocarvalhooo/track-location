@@ -10,6 +10,8 @@ import { Loading } from 'src/shared/components/Loading'
 import { AppProvider } from 'src/shared/providers/app'
 import { Routes } from '@routes/index'
 
+export const APP_NAME = 'Radar Logístico'
+
 export default function App() {
   const [fontLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold })
 

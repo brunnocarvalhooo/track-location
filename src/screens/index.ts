@@ -1,4 +1,4 @@
-import { Login } from './public'
+import { Login, AuthenticationCode } from './public'
 import { TrackLocation } from './private'
 
-export { Login, TrackLocation }
+export { Login, TrackLocation, AuthenticationCode }

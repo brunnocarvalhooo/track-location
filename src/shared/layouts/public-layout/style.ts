@@ -5,22 +5,31 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.COLORS.GRAY_50,
-    paddingInline: 12,
+    paddingInline: 24,
     justifyContent: 'center',
-    gap: 24,
+    alignItems: 'center',
+    gap: 8,
   },
   title: {
-    marginBottom: 10,
-    fontSize: 50,
+    fontSize: 30,
+    textAlign: 'center',
     fontWeight: 'bold',
     color: theme.COLORS.PRIMARY,
   },
-  FormContainer: {
-    flex: 1,
+  logo: {
+    width: 70,
+    height: 70,
+    marginTop: 12,
+  },
+  subtitle: {
+    fontSize: theme.FONT_SIZE.LG,
+    color: theme.COLORS.GRAY_300,
+  },
+  ChildrenContainer: {
+    width: '100%',
+    marginTop: 'auto',
     backgroundColor: theme.COLORS.GRAY_50,
-    paddingInline: 12,
     paddingBottom: 24,
-    justifyContent: 'flex-end',
     gap: 12,
   },
 })
